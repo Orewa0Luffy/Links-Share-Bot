@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Recommended
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8275489705:AAEGwAv2NmcUJGfVTf-_EGDHKxFh505Beiw")
 APP_ID = int(os.environ.get("APP_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
@@ -43,7 +43,7 @@ CHANNELS_TXT = """<b>›› ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.
 ›› ᴡᴇʙsᴇʀɪᴇs: <a href='https://t.me/webseries_flix'>ᴡᴇʙsᴇʀɪᴇs ғʟɪx</a>
 ›› ᴀᴅᴜʟᴛ ᴄʜᴀɴɴᴇʟs: <a href='https://t.me/hanime_arena'>ᴄᴏʀɴʜᴜʙ</a>
 ›› ᴍᴀɴʜᴡᴀ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/pornhwa_flix'>ᴘᴏʀɴʜᴡᴀ</a>
-›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/otakuflix_network'>ᴏᴛᴀᴋᴜғʟɪx</a>
+›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/'>ᴏᴛᴀᴋᴜғʟɪx</a>
 ›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ProYato</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
