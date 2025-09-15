@@ -14,8 +14,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7195990500"))
 PORT = os.environ.get("PORT", "8022")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://hoboc47673_db_user:animeotaku109@cluster0.rfcrxzy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "linksshare")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()] # dont change anything 
